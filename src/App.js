@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 import "tailwindcss/tailwind.css";
-import firebaseConfig from './firebaseConfig.js';
+
 import firebase from "firebase/app";
 import fire from './firebaseConfig';
 import Hero from './Hero';
