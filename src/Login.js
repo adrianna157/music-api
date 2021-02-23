@@ -53,7 +53,8 @@ const Login = (props) => {
             ) : (
               <>
                 <button onClick={handleSignup}>Sign up</button>
-                <p></p>
+                  <p></p>
+                  
                 <button className="googlebutton" onClick={google}>
                   Sign in With Google{" "}
                 </button>

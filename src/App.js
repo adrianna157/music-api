@@ -51,6 +51,7 @@ const App = () => {
   };
 
   const googleSignup = () => {
+    alert("testing");
     firebase
       .auth()
       .signInWithPopup(provider)
@@ -128,7 +129,7 @@ const App = () => {
           email={email}
           setEmail={setEmail}
           password={password}
-          google={google}
+          google={googleSignup}
           setPassword={setPassword}
           handleLogin={handleLogin}
           handleSignup={handleSignup}
